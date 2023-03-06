@@ -28,4 +28,6 @@ set layout for mobile screen `mobile_screen_layout.dart`
 
 set layout for web screen `web_screen_layout.dart`
 
-call the 
+Hot reload for Android
+
+For web run `flutter run -d chrome`
