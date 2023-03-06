@@ -31,3 +31,19 @@ set layout for web screen `web_screen_layout.dart`
 Hot reload for Android
 
 For web run `flutter run -d chrome`
+
+## Setting Up Firebase
+
+Make connection to Firebase. Install Some Packages at `pubspec.yaml`.Open in terminal....
+
+firebase_core: `flutter pub add firebase_core`.
+
+cloud_firestore: `flutter pub add cloud_firestore`.
+
+firebase_auth: `flutter pub add firebase_auth`.
+
+firebase_storage: `flutter pub add firebase_storage`.
+
+Alternate:
+Use extension:
+`Pubspec Assist`
