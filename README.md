@@ -1,10 +1,27 @@
-# instagram_flutter
+# Project Title
 
-A new Flutter project.
+Instagram_Clone
 
-## Getting Started
+## Installation
 
-This project is a starting point for a Flutter application.
+Setup & Theming the App
 
-First Create the flutter app using:
- ## create flutter instagram_flutter
+```bash
+    flutter create instagram_flutter
+    cd instagram_flutter
+    code .
+```
+    
+## Demo
+
+Insert gif or link to demo
+
+
+## Contributing
+
+Contributions are always welcome!
+
+See `contributing.md` for ways to get started.
+
+Please adhere to this project's `code of conduct`.
+
