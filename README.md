@@ -1,4 +1,4 @@
-# Project Title
+# Instagram_Clone
 
 Instagram_Clone
 
@@ -11,17 +11,9 @@ Setup & Theming the App
     cd instagram_flutter
     code .
 ```
-    
-## Demo
 
-Insert gif or link to demo
+## Theming the App
 
+New folder `lib/utils`
 
-## Contributing
-
-Contributions are always welcome!
-
-See `contributing.md` for ways to get started.
-
-Please adhere to this project's `code of conduct`.
-
+New File `colors.dart`
