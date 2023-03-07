@@ -80,7 +80,7 @@ create file `signup_screen.dart`
 
 // Text field for input bio
 
-//button for login
+//button for Signup
 
 //Transitioning to signing
 

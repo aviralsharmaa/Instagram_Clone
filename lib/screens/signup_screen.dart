@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
+import 'package:instagram_flutter/resources/auth_methods.dart';
 
 import '../utils/colors.dart';
 import '../widgets/text_field_input.dart';
@@ -58,14 +59,14 @@ class _SignupScreenState extends State<SignupScreen> {
                       "https://plus.unsplash.com/premium_photo-1671117129890-ad9c09af995a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=725&q=80"),
                 ),
                 Positioned(
-                  bottom: -10,
-                  left: 80,
+                    bottom: -10,
+                    left: 80,
                     child: IconButton(
-                  onPressed: () {},
-                  icon: const Icon(
-                    Icons.add_a_photo,
-                  ),
-                )),
+                      onPressed: () {},
+                      icon: const Icon(
+                        Icons.add_a_photo,
+                      ),
+                    )),
               ],
             ),
             const SizedBox(
@@ -108,10 +109,19 @@ class _SignupScreenState extends State<SignupScreen> {
             const SizedBox(
               height: 24,
             ),
-            //button for login
+            //button for Signup
             InkWell(
+              onTap: () async {
+                String res = await AuthMethods().signUpUser(
+                    email: _emailController.text,
+                    password: _passwordController.text,
+                    username: _uernameController.text,
+                    bio: _bioController.text,
+                    );
+                    print(res);
+              },
               child: Container(
-                child: const Text('Log in'),
+                child: const Text('Sign up'),
                 width: double.infinity,
                 alignment: Alignment.center,
                 padding: const EdgeInsets.symmetric(vertical: 12),
