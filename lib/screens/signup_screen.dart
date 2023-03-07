@@ -99,7 +99,7 @@ class _SignupScreenState extends State<SignupScreen> {
             const SizedBox(
               height: 24,
             ),
-            // Text field for input username
+            // Text field for input bio
             TextFieldInput(
               hintText: 'Enter your bio',
               textInputType: TextInputType.text,
