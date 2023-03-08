@@ -19,7 +19,7 @@ class AuthMethods {
     String res = "Some error occurred";
     
     try{
-      if(email.isNotEmpty || password.isNotEmpty || username.isNotEmpty || bio.isNotEmpty || file != null ){
+      if(email.isNotEmpty || password.isNotEmpty || username.isNotEmpty || bio.isNotEmpty ){
         // register a user
        UserCredential cred = await _auth.createUserWithEmailAndPassword(email: email, password: password);
 

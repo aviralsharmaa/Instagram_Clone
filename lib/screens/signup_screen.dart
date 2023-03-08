@@ -21,7 +21,7 @@ class _SignupScreenState extends State<SignupScreen> {
   final TextEditingController _passwordController = TextEditingController();
   final TextEditingController _bioController = TextEditingController();
   final TextEditingController _uernameController = TextEditingController();
-  Uint8List _image;
+  Uint8List?  _image;
 
   @override
   void dispose() {
@@ -87,7 +87,7 @@ class _SignupScreenState extends State<SignupScreen> {
               ],
             ),
             const SizedBox(
-              height: 24,
+              height: 20,
             ),
             // Text field for input username
             TextFieldInput(
@@ -96,7 +96,7 @@ class _SignupScreenState extends State<SignupScreen> {
               textEditingController: _uernameController,
             ),
             const SizedBox(
-              height: 24,
+              height: 20,
             ),
             // Text field for input email
             TextFieldInput(
@@ -105,7 +105,7 @@ class _SignupScreenState extends State<SignupScreen> {
               textEditingController: _emailController,
             ),
             const SizedBox(
-              height: 24,
+              height: 20,
             ),
             // Text field for input password
             TextFieldInput(
@@ -115,7 +115,7 @@ class _SignupScreenState extends State<SignupScreen> {
               isPass: true,
             ),
             const SizedBox(
-              height: 24,
+              height: 20,
             ),
             // Text field for input bio
             TextFieldInput(
@@ -124,7 +124,7 @@ class _SignupScreenState extends State<SignupScreen> {
               textEditingController: _bioController,
             ),
             const SizedBox(
-              height: 24,
+              height: 20,
             ),
             //button for Signup
             InkWell(
@@ -134,6 +134,7 @@ class _SignupScreenState extends State<SignupScreen> {
                   password: _passwordController.text,
                   username: _uernameController.text,
                   bio: _bioController.text,
+                  file: _image!, 
                 );
                 print(res);
               },
