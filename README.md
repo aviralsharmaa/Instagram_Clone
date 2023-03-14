@@ -40,3 +40,5 @@ If you have any feedback, please reach out to me at aviral2020it015@abesit.edu.i
 
 <h3 align="left">Support:</h3>
 <p><a href="https://www.buymeacoffee.com/https://www.buymeacoffee.com/aviralsharma"> <img align="left" src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" height="50" width="210" alt="https://www.buymeacoffee.com/aviralsharma" /></a></p><br><br>
+
+.1%
